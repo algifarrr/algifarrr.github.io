@@ -55,8 +55,8 @@ body {
         for (let i = 0; i < length; i++) {
           const from = oldText[i] || '';
           const to = newText[i] || '';
-          const start = Math.floor(Math.random() * 40);
-          const end = start + Math.floor(Math.random() * 40);
+          const start = Math.floor(Math.random() * 75);
+          const end = start + Math.floor(Math.random() * 75);
           this.queue.push({ from, to, start, end });
         }
         cancelAnimationFrame(this.frameRequest);
@@ -73,7 +73,7 @@ body {
             complete++;
             output += to;
           } else if (this.frame >= start) {
-            if (!char || Math.random() < 0.50) {
+            if (!char || Math.random() < 0.10) {
               char = this.randomChar();
               this.queue[i].char = char;
             }
@@ -106,13 +106,15 @@ body {
     'satu hal :',
     'perubahan adalah hal yang mutlak terjadi',
     'jika kita ingin hidup terus maju dan berjalan dan berkembang.',
-    'kehilangan adalah bagian dari perubahan.
+    'kehilangan adalah bagian dari perubahan.',
     'setiap perubahan  harus diterima dan disyukuri.',
     'sehingga siapaun yang datang aku sambut,',
     'siapapun yg pergi aku bebaskan.',
     'karena hidupku adalah rumah,',
     'aku adalah tuan,',
-    'sisanya adalah tamu yang tak bisa ku paksa tinggal'];
+    'sisanya adalah tamu yang tak bisa ku paksa tinggal'
+  
+  ]
     
     
     const el = document.querySelector('.text');
@@ -121,12 +123,12 @@ body {
     let counter = 0;
     const next = () => {
       fx.setText(phrases[counter]).then(() => {
-        setTimeout(next, 1500);
+        setTimeout(next, 2000);
       });
       counter = (counter + 1) % phrases.length;
     };
     
     next();</script>
-<iframe width="1" height="1" src="https://www.youtube.com/embed/Kk60F8a7-Jw?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="1" height="1" src="https://www.youtube.com/embed/Kk60F8a7-Jw?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
