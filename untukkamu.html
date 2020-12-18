@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>I Love u, I Hate U</title>
+  <title>hehe</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <style>
   @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
@@ -100,9 +100,9 @@ body {
     // ——————————————————————————————————————————————————
     
     const phrases = [
-    'Mungkin benar,',
-    'alam semesta hanya bercanda kala itu.',
-    'Aku saja yg kelewat bodoh menyambutmu terlalu serius...',];
+    'Selamat pagi dedek Arum...',
+    'jangan lupa sarapan ya >_<.',
+    ];
     
     
     const el = document.querySelector('.text');
@@ -111,7 +111,7 @@ body {
     let counter = 0;
     const next = () => {
       fx.setText(phrases[counter]).then(() => {
-        setTimeout(next, 3000);
+        setTimeout(next, 2000);
       });
       counter = (counter + 1) % phrases.length;
     };
