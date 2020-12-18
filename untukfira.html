@@ -100,11 +100,11 @@ body {
     // ——————————————————————————————————————————————————
     
     const phrases = [
-    'Selamat sore tante Firaa...',
-    'jangan lupa bahagia ya >_<.',
-    'kalo belum bahagia',
-    'inget kata kang parkir',
-    ' 2000 rebu :v ',
+    'Selamat sore kakak Firaa...',
+    'kakak Firaa cantik deh >_<.',
+    'soalnya kaka cewe sih :v',
+    'kalo ganteng kan ganti jadi mas Firaa :v',
+    ' piss damai >_< ',
     ];
     
     
@@ -114,7 +114,7 @@ body {
     let counter = 0;
     const next = () => {
       fx.setText(phrases[counter]).then(() => {
-        setTimeout(next, 2000);
+        setTimeout(next, 1300);
       });
       counter = (counter + 1) % phrases.length;
     };
