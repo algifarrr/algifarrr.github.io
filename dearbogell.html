@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bogell ❤ ^_^</title>
+<link rel="shortcut icon" href="http://pngimages.net/sites/default/files/an-arrow-through--heart-symbol-png-image-72639.png">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js" type="text/javascript"></script>
+<script language="JavaScript">
+
+<SCRIPT>alert(" Bogell ♥️");</SCRIPT>
+<SCRIPT>alert("Maaf buat kamu marah terus ♥️ ^_^");</SCRIPT>
+<SCRIPT>alert("Untuk Kamu Yang Disana ❤ ");</SCRIPT>
+
+<embed src="https://www.youtube.com/embed/u5R2ydClGwk?autoplay=1&loop=1&playlist=u5R2ydClGwk&modestbranding=1&showinfo=0&iv_load_policy=3&fs=0&fs=0&autohide=1&controls=0&disablekb=1&listType=user_uploads&list=vertigo&end=210" type="text/html"  width="0" height="0"width="1" height="1" ></embed>
+<arr.length; i++){ k = Math.round(Math.random() * (arr.length - i - 1)) + i; temp = arr[i];arr[i]=arr[k];arr[k]=temp;
+}
+return arr;
+}
+tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+for (var i=1; i<tb5_messages[tb5_currMsg].length; i++){ tb5_arr[i] = i; tb5_sts[i] = "_";
+}
+tb5_arr = tb5_shuffle(tb5_arr);
+function tb5_init(n){
+var k;
+if (n == tb5_arr.length){ if (tb5_currMsg == tb5_messages.length-1){ if ((tb5_rptType == 'finite') && (tb5_counter==tb5_rptNbr)){ clearTimeout(tb5_timerID); return; } tb5_counter++; tb5_currMsg=0; } else{ tb5_currMsg++; } n=0; tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length); tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length); for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){ tb5_arr[i] = i; tb5_sts[i] = "_"; } tb5_arr = tb5_shuffle(tb5_arr); tb5_sp=tb5_delay;30
+}
+else{ tb5_sp=tb5_speed;30; k = tb5_arr[n]; tb5_sts[k] = tb5_messages[tb5_currMsg].charAt(k); tb5_stsmsg = ""; for (var i=0; i<tb5_sts.length; i++) tb5_stsmsg += tb5_sts[i]; document.title = tb5_stsmsg; n++; } tb5_timerID = setTimeout("tb5_init("+n+")", tb5_sp);
+}
+function tb5_randomizetitle(){ tb5_init(0);
+}
+tb5_randomizetitle();
+ 
+</script>
+<style>
+ body{
+ background: no-repeat center center fixed;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ font-size: 12px;
+ font-family: verdana;
+  
+ }
+
+ .container{
+  position: fixed;
+  background: no-repeat center center fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  animation: animate 16s ease-in-out infinite;
+  background-size: cover;
+  }
+
+  @keyframes animate{
+  0%,100%{
+      background-image: url(https://i.imgur.com/ihUFxQi.jpg);
+  }
+  25%{
+      background-image: url(https://i.imgur.com/YLqfKQg.jpg);
+  }
+  50%{
+      background-image: url(https://i.imgur.com/erXSxBF.jpg);
+  }
+  75%{
+      background-image: url(https://i.imgur.com/tvReprn.jpg);
+  }
+                 
+  }
+
+ h1 {
+ padding: 10px 15px;
+ margin: 0px;
+ font-size: 14px;
+ background-color: #000000;
+ //background-image: -moz-linear-gradient(100% 100% 90deg, #777, #999) !important;
+     //background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#777)) !important;
+ color: #FFF;
+ //-webkit-border-radius:8px 8px 0px 0px;
+ //-moz-border-radius: 8px 8px 0px 0px;
+ border-radius: 8px 8px 0px 0px;
+ text-shadow:1px 1px 2px #333333;
+        opacity: 0.5;
+ }
+ table {
+ width: 700px;
+ }
+ table tr td{
+ font-family: verdana;
+ font-size: 11px;
+ padding: 10px 5px;
+ border-bottom: solid 1px #CCC;
+ 
+ }
+ #wrapper{
+ width: 800px;
+ margin: 10px auto;
+ text-align: left;
+        background: url() no-repeat center center fixed;
+ }
+ #console{
+ height: 450px;
+ overflow: auto;
+ background-color: #000;
+ padding: 15px;
+ font-family: monospace;
+ font-size: 12px;
+ color: #FFF;
+ }
+ .content{
+ padding: 15px;
+ }
+ #commander{
+ border: solid 1px #CCC;
+ padding: 5px 10px;
+ -webkit-border-radius: 2px;
+ -moz-border-radius: 2px;
+ border-radius: 2px;
+ margin: 5px;
+ width: 590px;
+ height: 30px;
+ }
+ .box{
+ -moz-box-shadow: 1px 1px 8px #666;
+ -webkit-box-shadow: 1px 1px 8px #666;
+ box-shadow: 1px 1px 8px #40D5D2;
+ border: solid 1px black;
+ -webkit-border-radius: 8px 8px 0px 0px;
+ -moz-border-radius: 8px 8px 0px 0px;
+ border-radius: 8px 8px 0px 0px;
+ margin: 15px 0px;
+ background-color: #F5F5F5;
+        opacity: 0.8;
+ }
+ #help{
+ width: 300px;
+ float: right;
+ }
+ .prefix{
+ color: #0077E7;
+ }
+ .keyword{
+ color: #9eff63;
+ }
+ .error{
+ color: #FF0000;
+ }
+ .spacer{
+ clear: both;
+ display: block;
+ }
+</style>
+<script type="text/javascript">
+// [+]~Hacked By Security Cyber Art!~[+]
+TypingText = function(element, interval, cursor, finishedCallback) {
+  if((typeof document.getElementById == "undefined") || (typeof
+ 
+element.innerHTML == "undefined")) {
+    this.running = true;
+    return;
+  }
+  this.element = element;
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() {
+ 
+return; });
+  this.interval = (typeof interval == "undefined" ? 100 : interval);
+  this.origText = this.element.innerHTML;
+  this.unparsedOrigText = this.origText;
+  this.cursor = (cursor ? cursor : "");
+  this.currentText = "";
+  this.currentChar = 0;
+  this.element.typingText = this;
+  if(this.element.id == "") this.element.id = "typingtext" +
+ 
+TypingText.currentIndex++;
+  TypingText.all.push(this);
+  this.running = false;
+  this.inTag = false;
+  this.tagBuffer = "";
+  this.inHTMLEntity = false;
+  this.HTMLEntityBuffer = "";
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+ if(this.running) return;
+ if(typeof this.origText == "undefined") {
+   setTimeout("document.getElementById('" + this.element.id +
+ 
+"').typingText.run()", this.interval);
+   return;
+ }
+ if(this.currentText == "") this.element.innerHTML = "";
+ if(this.currentChar < this.origText.length) {
+   if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+     this.tagBuffer = "<";
+     this.inTag = true;
+     this.currentChar++;
+     this.run();
+     return;
+   } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+     this.tagBuffer += ">";
+      this.inTag = false;
+      this.currentText += this.tagBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inTag) {
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == "&" && !
+ 
+this.inHTMLEntity) {
+     this.HTMLEntityBuffer = "&";
+      this.inHTMLEntity = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ";" &&
+ 
+this.inHTMLEntity) {
+     this.HTMLEntityBuffer += ";";
+      this.inHTMLEntity = false;
+      this.currentText += this.HTMLEntityBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inHTMLEntity) {
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else {
+      this.currentText += this.origText.charAt(this.currentChar);
+    }
+    this.element.innerHTML = this.currentText;
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ?
+ 
+(typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) :
+ 
+"");
+   this.currentChar++;
+   setTimeout("document.getElementById('" + this.element.id +
+ 
+"').typingText.run()", this.interval);
+ } else {
+   this.currentText = "";
+   this.currentChar = 0;
+       this.running = false;
+       this.finishedCallback();
+ }
+}
+</script>
+<script language="javascript" src="http://in.sitekodlari.com/sagtus.js"></script>
+ 
+ 
+<!-- AdFender script begin --><script type='text/javascript' src='http://local.adfender.com/adfender/elemhide.js'></script><!-- AdFender script end -->
+<!-- AdFender script begin --><script type='text/javascript' src='http://local.adfender.com/adfender/elemhide.js'></script><!-- AdFender script end -->
+</head>
+<body>
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
+<div class="container"></div>
+  <div id="wrapper">
+ <div class="box">
+ <h1><font color="# FFF9FF ">Hanya Untaian kata teruntuk bogell tercinta... ♥️</h1>
+ <div id="console"><span class="prefix">
+<p id="message">
+<font color="# FFF9FF ">[+] Halo Bogell  :D </font> <br>
+<font color="# FFF9FF ">[+] Maaf udah buat kamu marah sama jutek ❤ </font><br>
+<font color="# FFF9FF ">[+] Cuman ini yang bisa aku buat untuk kamu ❤, </font><br>
+<font color="# FFF9FF ">[+] Happy birthday 21th, semoga segala impian mu tercapai  ❤ </font><br>
+<font color="# FFF9FF ">[+] Aku sayang kamu, -Bawell ❤ ,,,</font><br>
+<br>
+<font color="green"> ======================Dear Bogell======================<br>
+<br>
+<font color="# FFF9FF "> Aku tidak mahir mengejar,,, <br>
+<font color="# FFF9FF "> tetapi, aku tau caranya menunggumu,,, <br>
+<font color="# FFF9FF "> Aku tidak mahir berkata-kata,,, <br>
+<font color="# FFF9FF "> tetapi, aku tau cara mendoakanmu,,, <br>
+<font color="# FFF9FF "> Aku tidak mahir memberi saran,,, <br>
+<font color="# FFF9FF "> tetapi, aku tau caranya mendengarkanmu,,, <br>
+<font color="# FFF9FF "> Aku tidak mahir melawak,,, <br>
+<font color="# FFF9FF "> tetapi, aku  tau caranya membuatmu bahagia,,, <br>
+<br>
+<font color="green">======================Dear Bogell====================== <br>
+<br>
+<font color="# FFF9FF "> aku tidak mahir memimpin,,, <br>
+<font color="# FFF9FF "> tetapi, aku tau caranya menuntunmu,,, <br>
+<font color="# FFF9FF "> Aku tidak mahir untuk rela mati demi kamu,,, <br>
+<font color="# FFF9FF "> tetapi, aku tau caranya hidup bahagia bersamamu,,, <br>
+<font color="# FFF9FF "> Aku tidak tau dimana ujung perjalanan kisah ini,,,<br>
+<font color="# FFF9FF "> aku tidak bisa menjanjikan apa pun,,, <br>
+<font color="# FFF9FF "> tetapi, selama aku mampu,,, <br>
+<font color="# FFF9FF "> mimpi-mimpi kita adalah prioritas,,, <br>
+<br>
+<font color=" #FF0066"> Dibuat dengan cinta oleh Bawell ♥️♥️♥️
+ 
+<br>
+<script type="text/javascript">
+new TypingText(document.getElementById("message"), 100, function(i){ var ar
+ 
+= new Array("|", "|", "|", "|"); return " " + ar[i.length % ar.length]; });
+ 
+//Type out examples:
+TypingText.runAll();
+ 
+</script>
+ <input text="test" id="commander" onkeyup="execute(this,event);" disabled="disabled"  style="width:786px;"/>
+ </div>
+ 
+ </div>
+<embed color="#000000" width="0" height="0" allowfullscreen="true" allowscriptaccess="always">
+<EMBED SRC="https://www.youtube.com/watch?v=HrYtwJRrFUA" AUTOSTART="TRUE" LOOP="TRUE" WIDTH="0" HEIGHT="0" ALIGN="CENTER"></EMBED><SCRIPT Language=VBScript></!--<SCRIPT Language=VBScr</script</html>
