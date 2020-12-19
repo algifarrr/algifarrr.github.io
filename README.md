@@ -1,1 +1,0 @@
-algifar ganteng banget
