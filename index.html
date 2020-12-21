@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>hehe :) </title>
-  <audio autoplay>
+  <audio autoplay loop>
     <source src="1.ogg" type="audio/ogg">
     <source src="1.mp3" type="audio/mpeg">
     
@@ -2870,8 +2870,8 @@ body {
         for (let i = 0; i < length; i++) {
           const from = oldText[i] || '';
           const to = newText[i] || '';
-          const start = Math.floor(Math.random() * 40);
-          const end = start + Math.floor(Math.random() * 40);
+          const start = Math.floor(Math.random() * 30);
+          const end = start + Math.floor(Math.random() * 20);
           this.queue.push({ from, to, start, end });
         }
         cancelAnimationFrame(this.frameRequest);
@@ -2992,7 +2992,7 @@ body {
     let counter = 0;
     const next = () => {
       fx.setText(phrases[counter]).then(() => {
-        setTimeout(next, 1300);
+        setTimeout(next, 1250);
       });
       counter = (counter + 1) % phrases.length;
     };
