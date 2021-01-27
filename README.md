@@ -1,0 +1,2 @@
+
+dari aku,  untuk kamu
